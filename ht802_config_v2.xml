@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gs_provision version="1">
+  <config version="1">
+
+    <!-- DNS -->
+    <P21>8.8.8.8</P21>
+    <P22>8.8.4.4</P22>
+
+    <!-- FXS PORT 1 - hustelefon (skivetelefon) -->
+    <P270>1</P270>
+    <P47>sip.linphone.org</P47>
+    <P48>sip.linphone.org</P48>
+    <P35>hustelefon</P35>
+    <P36>hustelefon</P36>
+    <P34>Eix95fy1</P34>
+    <P3>hus</P3>
+    <P64>jesper1983@sip.linphone.org</P64>
+    <P256>{ 22222 =&gt; jesper1983@sip.linphone.org | x+ | \+x+ | *x+ | *xx*x+ }</P256>
+    <P1763>1</P1763>
+    <P1752>5</P1752>
+
+    <!-- FXS PORT 2 - jesper1983 (tastatelefon garasje) -->
+    <P1270>1</P1270>
+    <P747>sip.linphone.org</P747>
+    <P748>sip.linphone.org</P748>
+    <P735>jesper1983</P735>
+    <P736>jesper1983</P736>
+    <P734>Eix95fy1</P734>
+    <P703>garasje</P703>
+    <P764>hustelefon@sip.linphone.org</P764>
+    <P1256>{ 11111 =&gt; hustelefon@sip.linphone.org | x+ | \+x+ | *x+ | *xx*x+ }</P1256>
+
+  </config>
+</gs_provision>
